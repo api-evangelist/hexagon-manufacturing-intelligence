@@ -1,0 +1,165 @@
+vocabulary:
+  name: Hexagon Manufacturing Intelligence Vocabulary
+  description: >-
+    Key industrial and manufacturing intelligence concepts used by Hexagon Manufacturing
+    Intelligence across its metrology, quality management, smart factory, and CAD product
+    portfolio. Covers terminology from coordinate metrology, GD&T, quality control,
+    and Industry 4.0 smart manufacturing.
+  version: "1.0.0"
+  terms:
+
+    - term: CMM
+      definition: >-
+        Coordinate Measuring Machine — a precision instrument that measures the physical
+        geometrical characteristics of an object by probing discrete points on its surface.
+        CMMs are used for dimensional inspection of manufactured parts.
+      tags:
+        - metrology
+        - hardware
+        - inspection
+
+    - term: PC-DMIS
+      definition: >-
+        Hexagon's flagship CMM measurement software that controls coordinate measuring
+        machines, manages measurement programs, collects dimensional data, and generates
+        inspection reports. Supports COM/ActiveX and JavaScript scripting APIs.
+      tags:
+        - software
+        - measurement
+        - automation
+
+    - term: GDandT
+      definition: >-
+        Geometric Dimensioning and Tolerancing — an engineering notation system using
+        symbols to define nominal geometry and allowable variation for manufactured parts.
+        GD&T characteristics (flatness, perpendicularity, true position, etc.) are core
+        to inspection planning in metrology software.
+      tags:
+        - standards
+        - tolerancing
+        - quality
+
+    - term: MeasurementProgram
+      definition: >-
+        A structured sequence of probing routines, coordinate system alignments, and
+        evaluation logic that directs a CMM to measure specific features on a workpiece
+        and compare results against nominal values and tolerances.
+      tags:
+        - metrology
+        - automation
+        - workflow
+
+    - term: InspectionPlan
+      definition: >-
+        A formal document or digital artifact that specifies which characteristics of a
+        part must be measured, the allowable tolerances, measurement frequency, and which
+        measurement equipment to use. Drives quality control workflows in manufacturing.
+      tags:
+        - quality
+        - planning
+        - workflow
+
+    - term: SFx
+      definition: >-
+        Hexagon's Smart Factory platform (SFx) — a cloud-based IoT and analytics platform
+        that collects data from shop floor equipment including CMMs, gauges, and fixtures,
+        enabling real-time manufacturing intelligence and process monitoring.
+      tags:
+        - smart-factory
+        - iot
+        - cloud
+        - industry-4.0
+
+    - term: Traceability
+      definition: >-
+        The ability to link a measurement result back through the measurement process to
+        a national or international measurement standard, ensuring metrological validity
+        and supporting regulatory compliance in aerospace, automotive, and medical industries.
+      tags:
+        - metrology
+        - compliance
+        - standards
+
+    - term: ProbeCompensation
+      definition: >-
+        A mathematical correction applied to CMM measurements to account for the finite
+        radius of the stylus tip, ensuring that reported surface coordinates reflect the
+        actual part geometry rather than the probe ball center trajectory.
+      tags:
+        - metrology
+        - calibration
+        - algorithms
+
+    - term: Nominal
+      definition: >-
+        The design or target value for a dimension or geometric characteristic as defined
+        in the engineering drawing or CAD model. Measurement results are compared against
+        nominals to determine conformance to specification.
+      tags:
+        - quality
+        - tolerancing
+        - measurement
+
+    - term: Deviation
+      definition: >-
+        The algebraic difference between the measured value and the nominal value for a
+        dimension or geometric characteristic. Positive deviation indicates the measured
+        feature is larger or further in the positive direction than nominal.
+      tags:
+        - measurement
+        - quality
+        - statistics
+
+    - term: PartProgram
+      definition: >-
+        In PC-DMIS and similar CMM software, a part program is the executable script
+        containing all measurement instructions, alignment routines, and reporting
+        directives for inspecting a specific part. Equivalent to a CNC program for
+        machining, but for measurement.
+      tags:
+        - automation
+        - software
+        - measurement
+
+    - term: SPC
+      definition: >-
+        Statistical Process Control — the application of statistical methods to monitor
+        and control a manufacturing process. In the context of Hexagon's quality
+        software, SPC data collected from CMMs and gauges is used to detect process
+        drift before nonconforming parts are produced.
+      tags:
+        - statistics
+        - quality
+        - process-control
+
+    - term: HxGNSmartQuality
+      definition: >-
+        Hexagon's enterprise quality management software (HxGN Smart Quality / formerly
+        Q-DAS) for collecting, analyzing, and reporting dimensional measurement data
+        across multiple shop floor devices, supporting SPC, capability analysis, and
+        quality reporting.
+      tags:
+        - software
+        - quality
+        - enterprise
+
+    - term: Workxplore
+      definition: >-
+        Hexagon's lightweight CAD viewer application that allows users to open, analyze,
+        and query 3D CAD files from all major formats without needing the originating
+        CAD system, supporting manufacturing planning and measurement programming.
+      tags:
+        - cad
+        - software
+        - visualization
+
+    - term: DigitalTwin
+      definition: >-
+        A virtual replica of a physical manufacturing asset, process, or product that
+        is continuously updated with real sensor and measurement data. Hexagon's
+        measurement and smart factory software contributes measurement data to digital
+        twin implementations for process optimization.
+      tags:
+        - industry-4.0
+        - smart-factory
+        - simulation

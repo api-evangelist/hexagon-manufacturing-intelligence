@@ -1,0 +1,14 @@
+{
+  "repo": "hexagon-manufacturing-intelligence",
+  "feeds": [
+    {
+      "source": "https://hexagon.com/resources/manufacturing-intelligence",
+      "feed_url": "https://hexagon.com/resources/manufacturing-intelligence",
+      "title": "Hexagon Manufacturing Intelligence Resources",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-06-05T00:00:00Z"
+}

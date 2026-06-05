@@ -1,0 +1,107 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "mi": "https://hexagon.com/ns/manufacturing-intelligence#",
+    "qudt": "http://qudt.org/schema/qudt/",
+    "obo": "http://purl.obolibrary.org/obo/",
+
+    "HexagonManufacturingIntelligence": {
+      "@id": "schema:Organization",
+      "@context": {
+        "name": "schema:name",
+        "url": {"@id": "schema:url", "@type": "@id"},
+        "description": "schema:description",
+        "industry": "schema:industry",
+        "parentOrganization": {"@id": "schema:parentOrganization", "@type": "@id"},
+        "sameAs": {"@id": "schema:sameAs", "@type": "@id"}
+      }
+    },
+
+    "MeasurementProgram": {
+      "@id": "mi:MeasurementProgram",
+      "@context": {
+        "programId": "mi:programId",
+        "name": "schema:name",
+        "description": "schema:description",
+        "partNumber": "mi:partNumber",
+        "revision": "mi:revision",
+        "createdDate": {"@id": "schema:dateCreated", "@type": "schema:Date"},
+        "modifiedDate": {"@id": "schema:dateModified", "@type": "schema:Date"},
+        "characteristics": {"@id": "mi:characteristics", "@container": "@set"},
+        "routines": {"@id": "mi:routines", "@container": "@set"}
+      }
+    },
+
+    "MeasurementResult": {
+      "@id": "mi:MeasurementResult",
+      "@context": {
+        "resultId": "mi:resultId",
+        "programId": "mi:programId",
+        "timestamp": {"@id": "schema:dateCreated", "@type": "schema:DateTime"},
+        "nominalValue": {"@id": "qudt:nominalValue", "@type": "qudt:QuantityValue"},
+        "measuredValue": {"@id": "qudt:value", "@type": "qudt:QuantityValue"},
+        "upperTolerance": "mi:upperTolerance",
+        "lowerTolerance": "mi:lowerTolerance",
+        "outOfTolerance": "mi:outOfTolerance",
+        "unit": {"@id": "qudt:unit", "@type": "@id"},
+        "featureName": "mi:featureName",
+        "status": "mi:status"
+      }
+    },
+
+    "CMMMachine": {
+      "@id": "mi:CMMMachine",
+      "@context": {
+        "machineId": "mi:machineId",
+        "serialNumber": "schema:serialNumber",
+        "model": "schema:model",
+        "manufacturer": {"@id": "schema:manufacturer", "@type": "@id"},
+        "location": {"@id": "schema:location", "@type": "schema:Place"},
+        "calibrationDate": {"@id": "mi:calibrationDate", "@type": "schema:Date"},
+        "probingSystem": "mi:probingSystem",
+        "workingVolume": "mi:workingVolume",
+        "accuracy": "mi:accuracy"
+      }
+    },
+
+    "QualityCharacteristic": {
+      "@id": "mi:QualityCharacteristic",
+      "@context": {
+        "characteristicId": "mi:characteristicId",
+        "name": "schema:name",
+        "type": "mi:characteristicType",
+        "nominal": "mi:nominal",
+        "upperTolerance": "mi:upperTolerance",
+        "lowerTolerance": "mi:lowerTolerance",
+        "datumReference": "mi:datumReference",
+        "gd_t_symbol": "mi:gdtSymbol"
+      }
+    },
+
+    "InspectionPlan": {
+      "@id": "mi:InspectionPlan",
+      "@context": {
+        "planId": "mi:planId",
+        "name": "schema:name",
+        "partNumber": "mi:partNumber",
+        "revision": "mi:revision",
+        "characteristics": {"@id": "mi:characteristics", "@container": "@set"},
+        "requiredMachines": {"@id": "mi:requiredMachines", "@container": "@set"},
+        "frequency": "mi:inspectionFrequency"
+      }
+    },
+
+    "SmartFactoryEvent": {
+      "@id": "mi:SmartFactoryEvent",
+      "@context": {
+        "eventId": "mi:eventId",
+        "eventType": "mi:eventType",
+        "timestamp": {"@id": "schema:dateCreated", "@type": "schema:DateTime"},
+        "source": {"@id": "schema:source", "@type": "@id"},
+        "severity": "mi:severity",
+        "payload": "mi:payload"
+      }
+    }
+  }
+}
