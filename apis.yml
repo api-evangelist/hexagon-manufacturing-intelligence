@@ -1,0 +1,64 @@
+aid: hexagon-manufacturing-intelligence
+name: Hexagon Manufacturing Intelligence
+description: >-
+  Hexagon Manufacturing Intelligence is a division of Hexagon AB providing metrology,
+  quality management, and manufacturing intelligence software and hardware. Products
+  include PC-DMIS (CMM measurement software), WORKXPLORE (CAD viewer), SFx (smart
+  factory platform), and HxGN Smart Quality. The division offers APIs and SDKs for
+  automating CMM measurement programs, integrating quality data into MES and ERP
+  systems, and building custom metrology applications.
+type: Index
+url: https://raw.githubusercontent.com/api-evangelist/hexagon-manufacturing-intelligence/refs/heads/main/apis.yml
+tags:
+  - Manufacturing
+  - Quality Management
+  - Metrology
+  - CAD
+  - Industrial Automation
+  - Smart Factory
+  - Quality Control
+created: '2026-06-05'
+modified: '2026-06-05'
+specificationVersion: '0.19'
+apis:
+  - aid: hexagon-manufacturing-intelligence:pc-dmis-api
+    name: PC-DMIS API
+    description: >-
+      The PC-DMIS API provides programmatic control over Hexagon CMM (coordinate
+      measuring machine) measurement software, enabling automation of measurement
+      programs, results extraction, and integration with quality management systems.
+      Supports COM/ActiveX interfaces and JavaScript-based scripting for custom
+      measurement application development.
+    humanURL: https://docs.hexagonmi.com/
+    baseURL: https://docs.hexagonmi.com/
+    tags:
+      - Metrology
+      - Quality Management
+      - CMM
+      - Quality Control
+      - Automation
+    properties:
+      - url: https://docs.hexagonmi.com/
+        type: Documentation
+      - url: https://support.hexagonmi.com/
+        type: Support
+common:
+  - type: Website
+    url: https://hexagon.com/company/divisions/manufacturing-intelligence
+  - type: Documentation
+    url: https://docs.hexagonmi.com/
+  - type: Support
+    url: https://support.hexagonmi.com/
+  - type: Blog
+    url: https://hexagon.com/resources/manufacturing-intelligence
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/hexagon-manufacturing-intelligence
+  - type: YouTube
+    url: https://www.youtube.com/@HexagonManufacturingIntelligence
+  - type: About
+    url: https://hexagon.com/company/divisions/manufacturing-intelligence
+  - type: Products
+    url: https://hexagon.com/products/product-groups/manufacturing-intelligence
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
