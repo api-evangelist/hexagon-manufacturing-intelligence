@@ -43,6 +43,8 @@ apis:
       - url: https://support.hexagonmi.com/
         type: Support
 common:
+  - type: DomainSecurity
+    url: security/hexagon-manufacturing-intelligence-domain-security.yml
   - type: Website
     url: https://hexagon.com/company/divisions/manufacturing-intelligence
   - type: Documentation
