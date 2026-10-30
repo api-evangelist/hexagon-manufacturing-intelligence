@@ -1,4 +1,4 @@
-# Hexagon Manufacturing Intelligence (hexagon-manufacturing-intelligence)
+# Hexagon Manufacturing Intelligence
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,61 +66,96 @@
 
 Hexagon Manufacturing Intelligence is a division of Hexagon AB providing metrology, quality management, and manufacturing intelligence software and hardware. Products include PC-DMIS (CMM measurement software), WORKXPLORE (CAD viewer), SFx (smart factory platform), and HxGN Smart Quality. The division offers APIs and SDKs for automating CMM measurement programs, integrating quality data into MES and ERP systems, and building custom metrology applications.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/hexagon-manufacturing-intelligence/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/hexagon-manufacturing-intelligence/refs/heads/main/apis.yml)
+**Areas:** Manufacturing · Quality Management · Metrology · CAD · Industrial Automation · Smart Factory · Quality Control
 
-## Scope
+## Hexagon Manufacturing Intelligence on APIs.io
 
-- **Type:** Index
+Everything profiled for Hexagon Manufacturing Intelligence is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/hexagon-manufacturing-intelligence/](https://apis.io/providers/hexagon-manufacturing-intelligence/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (1)
 
-- Manufacturing
-- Quality Management
-- Metrology
-- CAD
-- Industrial Automation
-- Smart Factory
-- Quality Control
+- [PC-DMIS API](https://apis.io/apis/hexagon-manufacturing-intelligence/pc-dmis-api/) — The PC-DMIS API provides programmatic control over Hexagon CMM (coordinate measuring machine) measurement software, enabling automation of measurement…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-06-05
-- **Modified:** 2026-06-05
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### JSON-LD (1)
 
-### PC-DMIS API
+Linked-data contexts for the provider's vocabulary.
 
-The PC-DMIS API provides programmatic control over Hexagon CMM (coordinate measuring machine) measurement software, enabling automation of measurement programs, results extraction, and integration with quality management systems. Supports COM/ActiveX interfaces and JavaScript-based scripting for custom measurement application development.
+- [Hexagon Manufacturing Intelligence Context](https://apis.io/jsonld/hexagon-manufacturing-intelligence/hexagon-manufacturing-intelligence-context/)
 
-- **Human URL:** [https://docs.hexagonmi.com/](https://docs.hexagonmi.com/)
-- **Base URL:** `https://docs.hexagonmi.com/`
+#### Vocabulary (1)
 
-#### Tags
+The provider's domain terms, defined.
 
-- Metrology
-- Quality Management
-- CMM
-- Quality Control
-- Automation
+- [Hexagon Manufacturing Intelligence Vocabulary](https://apis.io/vocabularies/hexagon-manufacturing-intelligence/hexagon-manufacturing-intelligence-vocabulary/)
 
-#### Properties
+#### Security (1)
 
-- [Documentation](https://docs.hexagonmi.com/)
-- [Support](https://support.hexagonmi.com/)
+Authentication, trust centre, and vulnerability disclosure.
 
-## Common Properties
+- [Hexagon Manufacturing Intelligence Domain Security](https://apis.io/security/hexagon-manufacturing-intelligence/hexagon-manufacturing-intelligence-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://hexagon.com/company/divisions/manufacturing-intelligence)
 - [Documentation](https://docs.hexagonmi.com/)
 - [Support](https://support.hexagonmi.com/)
 - [Blog](https://hexagon.com/resources/manufacturing-intelligence)
-- [LinkedIn](https://www.linkedin.com/company/hexagon-manufacturing-intelligence)
-- [YouTube](https://www.youtube.com/@HexagonManufacturingIntelligence)
-- [About](https://hexagon.com/company/divisions/manufacturing-intelligence)
-- [Products](https://hexagon.com/products/product-groups/manufacturing-intelligence)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 10.0** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 6.7 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/hexagon-manufacturing-intelligence/](https://apis.io/providers/hexagon-manufacturing-intelligence/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Hexagon Manufacturing Intelligence: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/hexagon-manufacturing-intelligence/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
